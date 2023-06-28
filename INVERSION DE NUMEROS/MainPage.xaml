@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="INVERSION_DE_NUMEROS.MainPage">
+
+    <StackLayout HorizontalOptions="FillAndExpand">
+        <Image Source="C:\Users\MINEDUCYT\Downloads"></Image>
+        <Label Text="INVERSION DE NUMEROS"
+               FontSize="40"
+               HorizontalOptions="Center"
+               Margin="0,100,0,0">
+             
+        </Label>
+        <Label Text="Ingrese el primer numero"
+               FontSize="20"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0">
+        </Label>
+        <Entry Placeholder="Primer numero"
+               WidthRequest="200"
+               HeightRequest="60"
+               x:Name="num1"
+               Keyboard="Numeric">
+        </Entry>
+        <Label Text="Ingrese el segundo numero"
+               FontSize="20"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0">
+        </Label>
+        <Entry Placeholder="Segundo numero"
+               WidthRequest="200"
+               HeightRequest="60"
+               x:Name="num2"
+               Keyboard="Numeric">
+        </Entry>
+        <Label Text="Ingrese el tercer numero"
+               FontSize="20"
+               HorizontalOptions="Center"
+               Margin="0,50,0,0">
+        </Label>
+        <Entry Placeholder="Tercer numero"
+               WidthRequest="200"
+               HeightRequest="60"
+               x:Name="num3"
+               Keyboard="Numeric">
+        </Entry>
+        <Button Text="INVERTIR"
+                CornerRadius="20"
+                WidthRequest="100"
+                HeightRequest="60"
+                Margin="0,50,0,0"
+                Clicked="Button_Clicked"
+                x:Name="calcular">
+        </Button>
+    </StackLayout>
+
+</ContentPage>
