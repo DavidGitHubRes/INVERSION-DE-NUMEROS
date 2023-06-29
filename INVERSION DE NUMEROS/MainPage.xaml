@@ -3,6 +3,84 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="INVERSION_DE_NUMEROS.MainPage">
 
+  
+    <!--
+        EJERCISIO PROMEDIO
+
+        Fecha de creación: [29/06/2023]
+        Empresa: [DAVID]
+
+        Última modificación:
+        - Fecha: [29/06/2023]
+        - Descripción: [NO HAY MODIFICACIONES]
+        - Autor: [DAVID]
+    -->
+
+    <StackLayout>
+        <Image Source="descarga.png" 
+               HeightRequest="150"
+               Margin="0,30,0,0"
+         />
+        <Label Text="INGRESE NOTA 1"
+               FontSize="20"
+               HorizontalOptions="Center"
+               Margin="0,40,0,0">
+        </Label>
+        <Entry Placeholder="NOTA 1"
+               Keyboard="Numeric"
+               x:Name="n1">
+        </Entry>
+        <Label Text="INGRESE NOTA 2"
+               FontSize="20"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0">
+        </Label>
+        <Entry Placeholder="NOTA 2"
+               Keyboard="Numeric"
+               x:Name="n2">
+        </Entry>
+        <Label Text="INGRESE NOTA 3"
+               FontSize="20"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0">
+        </Label>
+        <Entry Placeholder="NOTA 3"
+               Keyboard="Numeric"
+               x:Name="n3">
+        </Entry>
+        <Label Text="INGRESE NOTA 4"
+               FontSize="20"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0">
+        </Label>
+        <Entry Placeholder="NOTA 4"
+               Keyboard="Numeric"
+               x:Name="n4">
+        </Entry>
+        <Label Text="INGRESE NOTA 5"
+               FontSize="20"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0">
+        </Label>
+        <Entry Placeholder="NOTA 5"
+               Keyboard="Numeric"
+               x:Name="n5">
+        </Entry>
+        <Label Text="PROMEDIO: "
+               FontSize="30"
+               Margin="0,20,0,0"
+               x:Name="prom">
+        </Label>
+        <Button HeightRequest="90"
+                Margin="20"
+                Text="CALCULAR"
+                BackgroundColor="Green"
+                x:Name="calcular"
+                Clicked="calcular_Clicked">
+            
+        </Button>
+    </StackLayout>
+
     <StackLayout HorizontalOptions="FillAndExpand">
         <Image Source="C:\Users\MINEDUCYT\Downloads"></Image>
         <Label Text="INVERSION DE NUMEROS"
